@@ -1,0 +1,12 @@
+{
+  "name": "it104-ss3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ptit-cntt1-it104-ss3-01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

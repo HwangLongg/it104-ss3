@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    body {
+      font-family: Arial;
+      max-width: 400px;
+      margin: 50px auto;
+      text-align: center;
+    }
+    input {
+      width: 150px;
+      padding: 8px;
+      margin: 5px;
+    }
+    button {
+      padding: 10px 15px;
+      margin: 5px;
+      font-size: 16px;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mini Calculator</h1>
+  <input id="input1" type="text" placeholder="Nhập số thứ nhất" />
+  <input id="input2" type="text" placeholder="Nhập số thứ hai" /><br />
+
+  <button onclick="handleClick('+')">+</button>
+  <button onclick="handleClick('-')">-</button>
+  <button onclick="handleClick('*')">*</button>
+  <button onclick="handleClick('/')">/</button>
+  <button onclick="handleClick('^')">^</button>
+  <button onclick="handleClick('√')">√</button>
+  <button onclick="handleClick('!')">!</button>
+
+  <div id="result"></div>
+
+  <script src="./ptit-cntt1-it104-ss3-09.ts"></script>
+</body>
+</html>
